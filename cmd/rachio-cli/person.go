@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"git.thirdmartini.com/pub/go-rachio"
+	"github.com/thirdmartini/go-rachio"
 
 	"github.com/urfave/cli"
 )

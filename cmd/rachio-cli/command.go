@@ -7,7 +7,12 @@ import (
 
 	"github.com/urfave/cli"
 
-	"git.thirdmartini.com/pub/go-rachio"
+	"github.com/thirdmartini/go-rachio"
+)
+
+const (
+	FormatHuman = "human"
+	FormatJSON  = "json"
 )
 
 var (
@@ -27,6 +32,12 @@ var (
 		Name:  "user.id",
 		Value: "",
 		Usage: "User ID of user to display",
+	}
+
+	deviceIdFlag = cli.StringFlag{
+		Name:  "device.id",
+		Value: "",
+		Usage: "Device ID of controller to query",
 	}
 )
 

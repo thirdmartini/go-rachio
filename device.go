@@ -48,6 +48,10 @@ type Event struct {
 	Hidden    bool
 }
 
+func (e *Event) Timestamp() time.Time {
+	return time.Unix(e.EventDate/1000, 0)
+}
+
 // fixup our zones so we can interact with them directly
 func (d *Device) resolve() {
 	for idx := range d.Zones {
