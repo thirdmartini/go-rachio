@@ -21,7 +21,7 @@ func main() {
 	app.Name = appName
 	app.Author = "Sebastian Sobolewski"
 	app.Email = "spsobole@readybydawn.com"
-	app.Usage = "CLI For Rochio Sprinkler Controllers"
+	app.Usage = "CLI For Rachio Sprinkler Controllers"
 	app.Version = "10"
 
 	app.Flags = globalFlags

@@ -46,7 +46,7 @@ var globalFlags = []cli.Flag{
 	formatFlag,
 }
 
-// Commands are the top-level commands for metastorctl.
+// Commands are the top-level commands for rachio-cli
 var commands = []cli.Command{
 	{
 		Name:        "device",
